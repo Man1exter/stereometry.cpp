@@ -23,6 +23,20 @@
 
 using namespace std;
 
+void menk(){
+    cout << " ====> prostopadloscian" << endl;
+    cout << " ====> szescian" << endl;
+    cout << " ====> grantrojkatny" << endl;
+    cout << " ====> granczworokatny" << endl;
+    cout << " ====> granszesciokatny" << endl;
+    cout << " ====> czworoscian" << endl;
+    cout << " ====> ostrtrojkatny" << endl;
+    cout << " ====> ostrczworokatny" << endl;
+    cout << " ====> walec" << endl;
+    cout << " ====> kula" << endl;
+    cout << " ====> stozek" << endl;
+}
+
 void prostopadloscian(){
     cout << endl;
     cout << "wzor na objectosc (V = Ppodstawy * H) =====> V = abc" << endl;
@@ -45,9 +59,107 @@ cout << endl;
     cout << endl;
 }
 
+void grantrojkatny(){
+    cout << endl;
+    cout << "wzor na objectosc (V = Ppodstawy * H) =====> V = a * a pierwiastek 3 / 4 * H" << endl;
+    cout << "pole pow.calkowitej (Pc - suma scian) =======> Pc = 2 * a * a pierwiastek 3 / 4 + 3 * a * H" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "a-----------> krawedz podstawy" << endl;
+    cout << "H ---------------> wysokosc graniastoslupa" << endl;
+    cout << endl;
+}
+
+void granczworokatny(){
+    cout << endl;
+    cout << "wzor na objectosc (V = Ppodstawy * H) =====> V = a * a * H" << endl;
+    cout << "pole pow.calkowitej (Pc - suma scian) =======> Pc = 2 * a * a + 4 * a * H" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "a-----------> krawedz podstawy" << endl;
+    cout << "H ---------------> wysokosc graniastoslupa" << endl;
+    cout << endl;
+}
+
+void granszesciokatny(){
+    cout << endl;
+    cout << "wzor na objectosc (V = Ppodstawy * H) =====> V = 6 * a * a pierwiastek 3 / 4 * H" << endl;
+    cout << "pole pow.calkowitej (Pc - suma scian) =======> Pc = 2 * 6 * a * a pierwiastek 3 / 4 * H" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "a-----------> krawedz podstawy" << endl;
+    cout << "H ---------------> wysokosc graniastoslupa" << endl;
+    cout << endl;
+}
+
+void czworoscian(){
+    cout << endl;
+    cout << "wzor na objectosc (V = 1/3 * Ppodstawy * H) =====> V = a * a * a pierw 2 / 12" << endl;
+    cout << "pole pow.calkowitej (Pc - suma scian) =======> Pc = a * a pierw3" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "a-----------> krawedz czworoscianu" << endl;
+    cout << "H ---------------> wysokosc czworoscianu" << endl;
+    cout << endl;
+}
+
+void ostrtrojkatny(){
+    cout << endl;
+    cout << "wzor na objectosc (V = 1/3 * Ppodstawy * H) =====> V = 1/3 * a * a pierw 3 / 4 * H" << endl;
+    cout << "pole pow.calkowitej (Pc - suma scian) =======> Pc = a * a pierw 3 / 4 + 3 * 1/2 * a * h" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "a-----------> krawedz podstawy" << endl;
+    cout << "H ---------------> wysokosc ostroslupa" << endl;
+    cout << "h -----------------> wysokosc sciany bocznej" << endl;
+    cout << "alfa -----------------> kat,jaki tworzy sciana boczna z plaszczyzna podstawy" << endl;
+    cout << "beta -----------------> kat,jaki tworzy sciana boczna z plaszczyzna podstawy" << endl;
+    cout << endl;
+}
+
+void ostrczworokatny(){
+    cout << endl;
+    cout << "wzor na objectosc (V = 1/3 * Ppodstawy * H) =====> V = 1/3 * a * a * H" << endl;
+    cout << "pole pow.calkowitej (Pc - suma scian) =======> Pc = a * a + 4 * 1/2 * a * h" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "a-----------> krawedz podstawy" << endl;
+    cout << "H ---------------> wysokosc ostroslupa" << endl;
+    cout << "h -----------------> wysokosc sciany bocznej" << endl;
+    cout << "alfa -----------------> kat,jaki tworzy sciana boczna z plaszczyzna podstawy" << endl;
+    cout << "beta -----------------> kat,jaki tworzy sciana boczna z plaszczyzna podstawy" << endl;
+    cout << endl;
+}
+
+void walec(){
+    cout << endl;
+    cout << "wzor na objectosc V = pir2 * H" << endl;
+    cout << "pole pow.calkowitej Pc = 2pir2 + 2pirH" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "r-----------> promien" << endl;
+    cout << "H ---------------> wysokosc" << endl;
+    cout << endl;
+}
+
+void kula(){
+    cout << endl;
+    cout << "wzor na objectosc V = 4/3 * pir3" << endl;
+    cout << "pole pow.calkowitej P = 4pir2" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "r-----------> promien" << endl;
+    cout << endl;
+}
+
+void stozek(){
+    cout << endl;
+    cout << "wzor na objectosc V = 1/3pir2 * H" << endl;
+    cout << "pole pow.calkowitej Pc = pir2 + pirl" << endl;
+    cout << "                inne wazne informacje:     " << endl;
+    cout << "r-----------> promien" << endl;
+    cout << "H-----------> wysokosc" << endl;
+    cout << "l-----------> tworzaca" << endl;
+    cout << "alfa-----------> kat rozwarcia stozka" << endl;
+    cout << endl;
+}
 
 int main(){
     string bryla;
+    
+    menk();
 
     cout << "Jaka bryla potrzebna?" << endl;
     cin >> bryla;
@@ -56,6 +168,24 @@ int main(){
     prostopadloscian();
 } else if(bryla == "szescian"){
  szescian();
+} else if(bryla == "grantrojkatny"){
+    grantrojkatny();
+} else if(bryla == "granczworokatny"){
+    granczworokatny();
+} else if(bryla == "granszesciokatny"){
+    granszesciokatny();
+} else if(bryla == "czworoscian"){
+    czworoscian();
+} else if(bryla == "ostrtrojkatny"){
+    ostrtrojkatny();
+} else if(bryla == "ostrczworokatny"){
+    ostrczworokatny();
+} else if(bryla == "walec"){
+    walec();
+} else if(bryla == "kula"){
+    kula();
+} else {
+    stozek();
 }
 
 }
