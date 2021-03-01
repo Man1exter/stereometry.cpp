@@ -186,12 +186,37 @@ a = sqrt(b);
 cout << " wynik => " << a << " pierwiastek3 <===== (bo szescian)" << endl; 
 }
 
+void szescianCalkowitaPow(){
+    int obj;
+    int v;
+    int v1;
+    int v2;
+    int a;
+    float Pc;
+    cout << "Podaj obj szescianu" << endl;
+    cin >> obj;
+
+  v = sqrt((obj));
+  v1 = v / 2;
+  cout << "a wynosi: " << v1 << endl;
+
+v2 = v1 * v1;
+
+  Pc = v2 * 6;
+  cout << "wynik Pc ====> " << Pc << endl;
+}
+
 int main(){
     string bryla;
     int wybor;
     int wybor2;
     
     menk();
+
+    cout << endl;
+    cout << "1.szescian objcetosc" << endl;
+    cout << "2.szescian przekatna" << endl;
+    cout << "3.szescian calkowtia powierzchnia" << endl;
 
    cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
    cin >> wybor;
@@ -205,6 +230,8 @@ int main(){
        szescianObj();
        } else if(wybor2 == 2){
        szescianPrzekatna();
+       } else if(wybor2 == 3){
+        szescianCalkowitaPow();
        }
 
    } else {
