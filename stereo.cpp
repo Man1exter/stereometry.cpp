@@ -170,7 +170,20 @@ cin >> a;
 x = sqrt(a);
 v = x * x * x;
 
-cout << "Wynik: " << x << endl;
+cout << "Objetosc wynosi: " << v << endl;
+}
+
+void szescianPrzekatna(){
+    int Pc;
+    int b;
+    int a;
+cout << "Podaj pole powierzchni calkowitej" << endl;
+cin >> Pc;
+
+b = Pc / 6;
+a = sqrt(b);
+
+cout << " wynik => " << a << " pierwiastek3 <===== (bo szescian)" << endl; 
 }
 
 int main(){
@@ -191,7 +204,7 @@ int main(){
        if(wybor2 == 1){
        szescianObj();
        } else if(wybor2 == 2){
-           
+       szescianPrzekatna();
        }
 
    } else {
