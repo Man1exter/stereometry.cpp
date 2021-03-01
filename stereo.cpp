@@ -158,8 +158,16 @@ void stozek(){
 
 int main(){
     string bryla;
+    int wybor;
     
     menk();
+
+   cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
+   cin >> wybor;
+
+   if(wybor == 1){
+
+   } else {
 
     cout << "Jaka bryla potrzebna?" << endl;
     cin >> bryla;
@@ -187,5 +195,8 @@ int main(){
 } else {
     stozek();
 }
+}
+
+return 0;
 
 }
