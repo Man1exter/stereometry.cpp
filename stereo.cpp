@@ -15,6 +15,7 @@
 #include <functional>
 #include <typeinfo>
 #include <iterator>
+#include <math.h>
 #include <set>
 #include <chrono>
 #include <thread>
@@ -156,9 +157,26 @@ void stozek(){
     cout << endl;
 }
 
+void szescianObj(){
+// pole powierzchni jednej sciany = 4 obj ?
+// obj = a3
+//calkowita pow = pc = 6a2
+int a;
+float x;
+float v;
+cout << "Podaj pole powierzchni jednej sciany" << endl;
+cin >> a;
+
+x = sqrt(a);
+v = x * x * x;
+
+cout << "Wynik: " << x << endl;
+}
+
 int main(){
     string bryla;
     int wybor;
+    int wybor2;
     
     menk();
 
@@ -166,6 +184,15 @@ int main(){
    cin >> wybor;
 
    if(wybor == 1){
+
+       cout << "Ktore zadanie:" << endl;
+       cin >> wybor2;
+
+       if(wybor2 == 1){
+       szescianObj();
+       } else if(wybor2 == 2){
+           
+       }
 
    } else {
 
