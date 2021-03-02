@@ -188,8 +188,7 @@ cout << " wynik => " << a << " pierwiastek3 <===== (bo szescian)" << endl;
 
 void szescianCalkowitaPow(){
     int obj;
-    int v;
-    int v1,v2,a;
+    int v,v1,v2,a;;
     float Pc;
     cout << "Podaj obj szescianu" << endl;
     cin >> obj;
