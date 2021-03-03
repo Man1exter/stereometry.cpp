@@ -211,9 +211,12 @@ int main(){
     menk();
 
     cout << endl;
-    cout << "1.szescian objcetosc" << endl;
+    cout << "1.szescian objetosc" << endl;
     cout << "2.szescian przekatna" << endl;
     cout << "3.szescian calkowtia powierzchnia" << endl;
+    cout << "4.prostopadloscian objetosc" << endl;
+    cout << "5.prostopadloscian przekatna" << endl;
+    cout << "6.prostopadloscian calkowtia powierzchnia" << endl;
 
    cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
    cin >> wybor;
@@ -229,6 +232,12 @@ int main(){
        szescianPrzekatna();
        } else if(wybor2 == 3){
         szescianCalkowitaPow();
+       } else if(wybor2 == 4){
+           prostopadloscianObj();
+       } else if(wybor2 == 5){
+           prostopadloscianPrzekatna();
+       } else if(wybor2 == 6){
+           prostopadloscianPoleCalkowite();
        }
 
    } else {
