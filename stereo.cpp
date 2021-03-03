@@ -223,12 +223,15 @@ int main(){
     menk();
 
     cout << endl;
+    cout << "-------------------------------------" << endl;
     cout << "[1] szescian objetosc" << endl;
     cout << "[2] szescian przekatna" << endl;
     cout << "[3] szescian calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
     cout << "[4] prostopadloscian objetosc" << endl;
     cout << "[5] prostopadloscian przekatna" << endl;
     cout << "[6] prostopadloscian calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
 
    cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
    cin >> wybor;
