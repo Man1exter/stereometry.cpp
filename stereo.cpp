@@ -203,6 +203,18 @@ v2 = v1 * v1;
   cout << "wynik Pc ====> " << Pc << endl;
 }
 
+void prostopadloscianObj(){
+
+}
+
+void prostopadloscianPrzekatna(){
+    
+}
+
+void prostopadloscianPoleCalkowite(){
+    
+}
+
 int main(){
     string bryla;
     int wybor;
@@ -211,12 +223,12 @@ int main(){
     menk();
 
     cout << endl;
-    cout << "1.szescian objetosc" << endl;
-    cout << "2.szescian przekatna" << endl;
-    cout << "3.szescian calkowtia powierzchnia" << endl;
-    cout << "4.prostopadloscian objetosc" << endl;
-    cout << "5.prostopadloscian przekatna" << endl;
-    cout << "6.prostopadloscian calkowtia powierzchnia" << endl;
+    cout << "[1] szescian objetosc" << endl;
+    cout << "[2] szescian przekatna" << endl;
+    cout << "[3] szescian calkowtia powierzchnia" << endl;
+    cout << "[4] prostopadloscian objetosc" << endl;
+    cout << "[5] prostopadloscian przekatna" << endl;
+    cout << "[6] prostopadloscian calkowtia powierzchnia" << endl;
 
    cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
    cin >> wybor;
