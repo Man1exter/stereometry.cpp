@@ -215,6 +215,18 @@ void prostopadloscianPoleCalkowite(){
     
 }
 
+void grantrojkatnyObj(){
+
+}
+
+void grantrojkatnyPrzekatna(){
+
+}
+
+void grantrojkatnyPoleCalkowite(){
+    
+}
+
 int main(){
     string bryla;
     int wybor;
