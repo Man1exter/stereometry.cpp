@@ -232,6 +232,10 @@ int main(){
     cout << "[5] prostopadloscian przekatna" << endl;
     cout << "[6] prostopadloscian calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
+    cout << "[7] grantrojkatny objetosc" << endl;
+    cout << "[8] grantrojkatny przekatna" << endl;
+    cout << "[9] grantrojkatny calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
 
    cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
    cin >> wybor;
@@ -240,6 +244,7 @@ int main(){
 
        cout << "Ktore zadanie:" << endl;
        cin >> wybor2;
+       
 
        if(wybor2 == 1){
        szescianObj();
@@ -253,6 +258,12 @@ int main(){
            prostopadloscianPrzekatna();
        } else if(wybor2 == 6){
            prostopadloscianPoleCalkowite();
+       } else if(wybor2 == 7){
+           grantrojkatnyObj();
+       } else if(wybor2 == 8){
+           grantrojkatnyPrzekatna();
+       } else if(wybor2 == 9){
+           grantrojkatnyPoleCalkowite();
        }
 
    } else {
