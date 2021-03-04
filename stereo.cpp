@@ -224,6 +224,18 @@ void grantrojkatnyPrzekatna(){
 }
 
 void grantrojkatnyPoleCalkowite(){
+
+}
+
+void granczworokatnyObj(){
+
+}
+
+void granczworokatnyPrzekatna(){
+
+}
+
+void granczworokatnyPoleCalkowite(){
     
 }
 
@@ -248,6 +260,10 @@ int main(){
     cout << "[8] grantrojkatny przekatna" << endl;
     cout << "[9] grantrojkatny calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
+    cout << "[10] granczworokatny objetosc" << endl;
+    cout << "[11] granczworokatny przekatna" << endl;
+    cout << "[12] granczworokatny calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
 
    cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
    cin >> wybor;
@@ -256,7 +272,6 @@ int main(){
 
        cout << "Ktore zadanie:" << endl;
        cin >> wybor2;
-       
 
        if(wybor2 == 1){
        szescianObj();
@@ -276,6 +291,12 @@ int main(){
            grantrojkatnyPrzekatna();
        } else if(wybor2 == 9){
            grantrojkatnyPoleCalkowite();
+       } else if(wybor2 == 10){
+            granczworokatnyObj();
+       } else if(wybor2 == 11){
+            granczworokatnyPrzekatna();
+       } else if(wybor2 == 12){
+            granczworokatnyPoleCalkowite();
        }
 
    } else {
