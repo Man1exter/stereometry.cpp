@@ -204,11 +204,29 @@ v2 = v1 * v1;
 }
 
 void prostopadloscianObj(){
-
+    float a,b,c;
+    float wynik;
+cout << "Podaj wymiary do obliczenia objetosci (podaj odrazu 3 wartosci)" << endl;
+cin >> a;
+cin >> b;
+cin >> c;
+wynik = a * b * c;
+cout << "wynik ===> " << wynik << endl;
 }
 
 void prostopadloscianPrzekatna(){
-    
+    float a,b,c;
+    float d;
+    float wynikC;
+    cout << "podaj wymiar przekatnej, aby obliczyc jej dlugosc (podaj odrazu 3 wartosci)" << endl;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    cout << "twoje dane: " << a << " x " << b << " x " << c << endl;
+    d = a * a + b * b;
+    cout << "przekatna podstawy: " << d << endl;
+    cout << "przekatna podstawy dokladna: " << sqrt(d) << endl;
+    cout << "wynik ostateczny: " << sqrt(d) << " pierwiastek 2" << endl;
 }
 
 void prostopadloscianPoleCalkowite(){
@@ -236,7 +254,7 @@ void granczworokatnyPrzekatna(){
 }
 
 void granczworokatnyPoleCalkowite(){
-    
+
 }
 
 int main(){
@@ -265,7 +283,7 @@ int main(){
     cout << "[12] granczworokatny calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
 
-   cout << "co potrzebne? [1] -> zadanie [2] -> informacja" << endl;
+   cout << "co potrzebne? [1] ----> zadanie [2] ----> informacja" << endl;
    cin >> wybor;
 
    if(wybor == 1){
