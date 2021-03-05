@@ -294,7 +294,9 @@ int main(){
     cout << "[12] granczworokatny calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
 
-   cout << "co potrzebne? [1] ----> zadanie [2] ----> informacja" << endl;
+   cout << "co potrzebne?" << endl;
+   cout << " [1] ----> zadanie" << endl;
+   cout << " [2] ----> informacja" << endl;
    cin >> wybor;
 
    if(wybor == 1){
