@@ -245,7 +245,18 @@ void prostopadloscianPoleCalkowite(){
 }
 
 void grantrojkatnyObj(){
-
+    float dlugosc;
+    float wysokosc;
+    float wynik1;
+    float wynik2;
+cout << "podaj bok dlugosci trojkata w podstawie" << endl;
+cin >> dlugosc;
+cout << "podaj tez tego wysokosc" << endl;
+cin >> wysokosc;
+cout << "dlugosc czyli a: " << dlugosc << " --- " << " wysokosc czyli H: " << wysokosc << endl;
+wynik1 = dlugosc * dlugosc;
+wynik2 = wynik1 * wysokosc;
+cout << "wynik objetosci wynosi " << wynik2 << "pierwiastek 3 przez 4 ==========> wynik pierw3 / 4" << endl;
 }
 
 void grantrojkatnyPrzekatna(){
