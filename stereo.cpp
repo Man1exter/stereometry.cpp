@@ -309,6 +309,10 @@ int main(){
    cout << " [1] ----> zadanie" << endl;
    cout << " [2] ----> informacja" << endl;
    cin >> wybor;
+   if(wybor > 2){
+           cout << "blad podawanych danych, popraw sie" << endl;
+           cin >> wybor;
+       }
 
    if(wybor == 1){
 
