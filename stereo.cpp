@@ -230,7 +230,18 @@ void prostopadloscianPrzekatna(){
 }
 
 void prostopadloscianPoleCalkowite(){
-    
+    float a,b,c;
+    float a1,b2,c3;
+    float pc;
+    cout << "podaj boki dlugosci prostopadloscianu (podaj odrazu 3 wartosci)" << endl;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    a1 = a * b;
+    b2 = a * c;
+    c3 = b * c;
+    pc = 2 * (a1 + b2 + c3);
+    cout << "pole prostopadloscianu wynosi =========> " << pc << " cm4" << endl;
 }
 
 void grantrojkatnyObj(){
