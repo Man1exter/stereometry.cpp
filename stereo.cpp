@@ -270,7 +270,19 @@ void grantrojkatnyPoleCalkowite(){
 float pp;
 float pb;
 float pc;
-
+float a;
+cout << "podaj wartosc a:" << endl;
+cin >> a;
+pp = a * a / 4;
+cout << "pole podstawy wynosi " << pp << " pierwiastek 3" << endl;
+cout << endl;
+cout << "pamietaj ze to trzy jednakowe prostokaty (w boczne)" << endl;
+pb = 3 * 4 * pp;
+cout << endl;
+cout << "pole boczne wynosi: " << pb << " pierwiastek 3" << endl;
+pc = 2 * pp + pb;
+cout << endl;
+cout << "pole calkowite wynosi: " << pc << " pierwiastek 3" << endl;
 }
 
 void granczworokatnyObj(){
