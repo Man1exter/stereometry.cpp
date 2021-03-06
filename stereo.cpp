@@ -260,10 +260,16 @@ cout << "wynik objetosci wynosi " << wynik2 << "pierwiastek 3 przez 4 ==========
 }
 
 void grantrojkatnyPrzekatna(){
-
+cout << endl;
+cout << "brak danych opartych o jakiekolwiek zadania z przekatna w graniastoslupie trojkatnym" << endl;
+cout << "wybierz inna pozycje" << endl;
+cout << endl;
 }
 
 void grantrojkatnyPoleCalkowite(){
+float pp;
+float pb;
+float pc;
 
 }
 
