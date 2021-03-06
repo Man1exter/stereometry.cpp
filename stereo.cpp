@@ -290,11 +290,26 @@ void granczworokatnyObj(){
 }
 
 void granczworokatnyPrzekatna(){
-
+cout << endl;
+cout << "brak danych opartych o jakiekolwiek zadania z przekatna w graniastoslupie trojkatnym" << endl;
+cout << "wybierz inna pozycje" << endl;
+cout << endl;
 }
 
 void granczworokatnyPoleCalkowite(){
-
+float h;
+float kp;
+float pc;
+float pp;
+float pb;
+cout << "podaj wysokosc" << endl;
+cin >> h;
+cout << "podaj krawedz podstawy" << endl;
+cin >> kp;
+pp = kp;
+pb = h;
+pc = 2 * pp * pp + 4 * pp * pb;
+cout << "pole calkowite wynosi " << pc << endl;
 }
 
 int main(){
