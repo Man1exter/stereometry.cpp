@@ -25,10 +25,10 @@
 using namespace std;
 
 void menk(){
-    cout << " ====> prostopadloscian" << endl;
-    cout << " ====> szescian" << endl;
-    cout << " ====> grantrojkatny" << endl;
-    cout << " ====> granczworokatny" << endl;
+    cout << " ====> prostopadloscian" << endl; // done
+    cout << " ====> szescian" << endl; // done
+    cout << " ====> grantrojkatny" << endl; // done
+    cout << " ====> granczworokatny" << endl; // done
     cout << " ====> granszesciokatny" << endl;
     cout << " ====> czworoscian" << endl;
     cout << " ====> ostrtrojkatny" << endl;
@@ -337,11 +337,46 @@ int main(){
     cout << "[11] granczworokatny przekatna" << endl;
     cout << "[12] granczworokatny calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
+    cout << "[13] granszesciokatny objetosc" << endl;
+    cout << "[14] granszesciokatny przekatna" << endl;
+    cout << "[15] granszesciokatny calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
+    cout << "[16] czworoscian objetosc" << endl;
+    cout << "[17] czworoscian przekatna" << endl;
+    cout << "[18] czworoscian calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
+    cout << "[19] ostrtrojkatny objetosc" << endl;
+    cout << "[20] ostrtrojkatny przekatna" << endl;
+    cout << "[21] ostrtrojkatny calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
+    cout << "[19] ostrczworokatny objetosc" << endl;
+    cout << "[20] ostrczworokatny przekatna" << endl;
+    cout << "[21] ostrczworokatny calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
+    cout << "[19] walec objetosc" << endl;
+    cout << "[20] walec przekatna" << endl;
+    cout << "[21] walec calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
+    cout << "[19] kula objetosc" << endl;
+    cout << "[20] kula przekatna" << endl;
+    cout << "[21] kula calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
+    cout << "[19] stozek objetosc" << endl;
+    cout << "[20] stozek przekatna" << endl;
+    cout << "[21] stozek calkowtia powierzchnia" << endl;
+    cout << "-------------------------------------" << endl;
 
    cout << "co potrzebne?" << endl;
    cout << " [1] ----> zadanie" << endl;
    cout << " [2] ----> informacja" << endl;
    cin >> wybor;
+   // granszesciokatny
+   // czworoscian
+   // ostrtrojkatny
+   // ostrczworokatny
+   // walec
+   // kula
+   // stozek
 
    if(wybor > 2){
            cout << "blad podawanych danych, popraw sie" << endl;
@@ -381,6 +416,24 @@ int main(){
             granczworokatnyPrzekatna();
        } else if(wybor2 == 12){
             granczworokatnyPoleCalkowite();
+       } else if(wybor2 == 13){
+            granszesciokatnyPoleCalkowite();
+       } else if(wybor2 == 14){
+            granszesciokatnyObj();
+       } else if(wybor2 == 15){
+            granszesciokatnyPrzekatna();
+       } else if(wybor2 == 16){
+            czworoscianPoleCalkowite();
+       } else if(wybor2 == 17){
+            czworoscianObj();
+       } else if(wybor2 == 18){
+            czworoscianPrzekatna();
+       } else if(wybor2 == 19){
+            ostrtrojkatnyPoleCalkowite();
+       } else if(wybor2 == 20){
+            ostrtrojkatnyObj();
+       } else if(wybor2 == 21){
+            ostrtrojkatnyPrzekatna();
        }
 
    } else {
