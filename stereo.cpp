@@ -313,87 +313,107 @@ cout << "pole calkowite wynosi " << pc << endl;
 }
 
 void granszesciokatnyPoleCalkowite(){    
-
+float pp;
+float obj;
 } 
 
 void granszesciokatnyObj(){    
-
+float obj;
+float pp;
+float podstawa;
+float przekatna;
+float podstawaKat;
+float pierw;
+float h;
+cout << "podaj dlugosc przekatnej" << endl;
+cin >> przekatna;
+cout << "podaj kat nachylenia do podstawy" << endl;
+cin >> podstawaKat;
+pierw = przekatna / 2;
+h = przekatna;
+cout << "wysokosc wynosi " << h << " pierwiastek 3 przez 2 <======== ( mozna tez podzielic z dwojka !!!! ) "<< endl;
+cout << "dlugosc ramienia podstawy wynosi " << pierw << " pierwiastek 2" << endl;
+cout << endl;
+pp = pierw * pierw;
+cout << pp << " <===== tyle wynosi pole podstawy przez 2 (bo pierwiastek 2 razy 2)" << endl;
+obj = pp * pierw;
+cout << "wynik wynosi " << obj << " pierwiastek 3 przez 2" << endl;
 }
 
 void granszesciokatnyPrzekatna(){    
-
+cout << endl;
 }
 
 void czworoscianPoleCalkowite(){    
-
+cout << endl;
 } 
 
 void czworoscianObj(){    
-
+cout << endl;
 }
 
 void czworoscianPrzekatna(){    
-
+cout << endl;
 }
 
 void ostrtrojkatnyPoleCalkowite(){    
-
+cout << endl;
 } 
 
 void ostrtrojkatnyObj(){    
-
+cout << endl;
 }
 
 void ostrtrojkatnyPrzekatna(){    
-
+cout << endl;
 }
 
 void ostrczworokatnyPoleCalkowite(){    
-
+cout << endl;
 } 
 
 void ostrczworokatnyObj(){    
-
+cout << endl;
 }
 
 void ostrczworokatnyPrzekatna(){    
-
+cout << endl;
 }
 
 void walecPoleCalkowite(){    
-
+cout << endl;
 }
 
 void walecObj(){    
-
+cout << endl;
 }
 
 void walecPrzekatna(){    
-
+cout << endl;
 }
 
 void kulaPoleCalkowite(){    
-
+cout << endl;
 }
 
 void kulaObj(){    
-
+cout << endl;
 }
 
 void kulaPrzekatna(){    
-
+cout << endl;
 }
 
 void stozekPoleCalkowite(){    
-
+cout << endl;
 }
 
 void stozekObj(){    
-
+cout << endl;
 }
 
 void stozekPrzekatna(){    
-
+cout << endl;
 }
 
 
@@ -495,9 +515,9 @@ int main(){
        } else if(wybor2 == 12){
             granczworokatnyPoleCalkowite();
        } else if(wybor2 == 13){
-            granszesciokatnyPoleCalkowite();
-       } else if(wybor2 == 14){
             granszesciokatnyObj();
+       } else if(wybor2 == 14){
+            granszesciokatnyPoleCalkowite();
        } else if(wybor2 == 15){
             granszesciokatnyPrzekatna();
        } else if(wybor2 == 16){
