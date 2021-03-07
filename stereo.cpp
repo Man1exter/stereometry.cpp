@@ -357,7 +357,13 @@ cout << "wynik wynosi " << obj << " pierwiastek 3 przez 2" << endl;
 }
 
 void granszesciokatnyPrzekatna(){    
-cout << endl;
+    cout << "przykladowa tresc" << endl;
+cout << "Długość krawędzi podstawy graniastosłupa prawidłowego sześciokątnego jest równa a, Jego ściany boczne są kwadratami, Wyznacz długości jego przekątnych" << endl;
+ cout << "d = 2a" << endl;
+ cout << "k = a√3" << endl;
+ cout << "D = √d2 + h2 = √4a2 + a2 = √5a2 = a√5" << endl;
+ cout << "D = pierwiastekd do 2 + h2 = pierw4 a do 2 + a2 itd w przyklaodwych"
+ cout << "K = √k2 + h2 = √3a2 + a2 = √4a2 = 2a" << endl;
 }
 
 void czworoscianPoleCalkowite(){    
