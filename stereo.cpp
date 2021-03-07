@@ -338,6 +338,7 @@ pp = pierw * pierw;
 cout << pp << " <===== tyle wynosi pole podstawy przez 2 (bo pierwiastek 2 razy 2)" << endl;
 obj = pp * pierw;
 cout << "wynik wynosi " << obj << " pierwiastek 3 przez 2" << endl;
+
 }
 
 void granszesciokatnyPrzekatna(){    
