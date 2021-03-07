@@ -312,6 +312,91 @@ pc = 2 * pp * pp + 4 * pp * pb;
 cout << "pole calkowite wynosi " << pc << endl;
 }
 
+void granszesciokatnyPoleCalkowite(){    
+
+} 
+
+void granszesciokatnyObj(){    
+
+}
+
+void granszesciokatnyPrzekatna(){    
+
+}
+
+void czworoscianPoleCalkowite(){    
+
+} 
+
+void czworoscianObj(){    
+
+}
+
+void czworoscianPrzekatna(){    
+
+}
+
+void ostrtrojkatnyPoleCalkowite(){    
+
+} 
+
+void ostrtrojkatnyObj(){    
+
+}
+
+void ostrtrojkatnyPrzekatna(){    
+
+}
+
+void ostrczworokatnyPoleCalkowite(){    
+
+} 
+
+void ostrczworokatnyObj(){    
+
+}
+
+void ostrczworokatnyPrzekatna(){    
+
+}
+
+void walecPoleCalkowite(){    
+
+}
+
+void walecObj(){    
+
+}
+
+void walecPrzekatna(){    
+
+}
+
+void kulaPoleCalkowite(){    
+
+}
+
+void kulaObj(){    
+
+}
+
+void kulaPrzekatna(){    
+
+}
+
+void stozekPoleCalkowite(){    
+
+}
+
+void stozekObj(){    
+
+}
+
+void stozekPrzekatna(){    
+
+}
+
+
 int main(){
     string bryla;
     int wybor;
@@ -349,35 +434,28 @@ int main(){
     cout << "[20] ostrtrojkatny przekatna" << endl;
     cout << "[21] ostrtrojkatny calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
-    cout << "[19] ostrczworokatny objetosc" << endl;
-    cout << "[20] ostrczworokatny przekatna" << endl;
-    cout << "[21] ostrczworokatny calkowtia powierzchnia" << endl;
+    cout << "[22] ostrczworokatny objetosc" << endl;
+    cout << "[23] ostrczworokatny przekatna" << endl;
+    cout << "[24] ostrczworokatny calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
-    cout << "[19] walec objetosc" << endl;
-    cout << "[20] walec przekatna" << endl;
-    cout << "[21] walec calkowtia powierzchnia" << endl;
+    cout << "[25] walec objetosc" << endl;
+    cout << "[26] walec przekatna" << endl;
+    cout << "[27] walec calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
-    cout << "[19] kula objetosc" << endl;
-    cout << "[20] kula przekatna" << endl;
-    cout << "[21] kula calkowtia powierzchnia" << endl;
+    cout << "[28] kula objetosc" << endl;
+    cout << "[29] kula przekatna" << endl;
+    cout << "[30] kula calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
-    cout << "[19] stozek objetosc" << endl;
-    cout << "[20] stozek przekatna" << endl;
-    cout << "[21] stozek calkowtia powierzchnia" << endl;
+    cout << "[31] stozek objetosc" << endl;
+    cout << "[32] stozek przekatna" << endl;
+    cout << "[33] stozek calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
 
    cout << "co potrzebne?" << endl;
    cout << " [1] ----> zadanie" << endl;
    cout << " [2] ----> informacja" << endl;
    cin >> wybor;
-   // granszesciokatny
-   // czworoscian
-   // ostrtrojkatny
-   // ostrczworokatny
-   // walec
-   // kula
-   // stozek
-
+   
    if(wybor > 2){
            cout << "blad podawanych danych, popraw sie" << endl;
            cin >> wybor;
