@@ -313,8 +313,24 @@ cout << "pole calkowite wynosi " << pc << endl;
 }
 
 void granszesciokatnyPoleCalkowite(){    
+float a;
+float h;
 float pp;
-float obj;
+float pb;
+float pc;
+float pcD;
+    cout << "podaj krawedz podstawy" << endl;
+    cin >> a;
+    cout << "podaj wysokosc" << endl;
+    cin >> h;
+    pp = 3 * a * a;
+    cout << "pole podstawy wynosi: " << pp << " pierwiastek 3 przez 2" << endl;
+    pb = 6 * a * h;
+    cout << "pole boczne wynosi " << pb << endl;
+    pc = 2 * pp + pb;
+    pcD = 2 * pp;
+    pcD = pcD / 2;
+    cout << "pole calkowite wynosi " << pcD << " (pierwiastek 3 + 4)"<< endl;
 } 
 
 void granszesciokatnyObj(){    
@@ -338,7 +354,6 @@ pp = pierw * pierw;
 cout << pp << " <===== tyle wynosi pole podstawy przez 2 (bo pierwiastek 2 razy 2)" << endl;
 obj = pp * pierw;
 cout << "wynik wynosi " << obj << " pierwiastek 3 przez 2" << endl;
-
 }
 
 void granszesciokatnyPrzekatna(){    
