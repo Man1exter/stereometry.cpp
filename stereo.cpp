@@ -434,7 +434,34 @@ int main(){
             ostrtrojkatnyObj();
        } else if(wybor2 == 21){
             ostrtrojkatnyPrzekatna();
+       } else if(wybor2 == 22){
+            ostrczworokatnyPoleCalkowite();
+       } else if(wybor2 == 23){
+            ostrczworokatnyObj();
+       } else if(wybor2 == 24){
+            ostrczworokatnyPrzekatna();
+       } else if(wybor2 == 25){
+            walecPoleCalkowite();
+       } else if(wybor2 == 26){
+            walecObj();
+       } else if(wybor2 == 27){
+            walecPrzekatna();
+       } else if(wybor2 == 28){
+            kulaPoleCalkowite();
+       } else if(wybor2 == 29){
+            kulaObj();
+       } else if(wybor2 == 30){
+            kulaPrzekatna();
+       } else if(wybor2 == 31){
+            stozekPoleCalkowite();
+       } else if(wybor2 == 32){
+            stozekObj();
+       } else if(wybor2 == 33){
+            stozekPrzekatna();
        }
+
+
+
 
    } else {
 
