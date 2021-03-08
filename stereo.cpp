@@ -394,6 +394,9 @@ cout << "objetosc wynosi: " << v << " pierwiastek 3" << endl;
 
 void czworoscianPrzekatna(){    
 cout << endl;
+cout << "brak danych opartych o jakiekolwiek zadania z przekatna w graniastoslupie trojkatnym" << endl;
+cout << "wybierz inna pozycje" << endl;
+cout << endl;
 }
 
 void ostrtrojkatnyPoleCalkowite(){    
