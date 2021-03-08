@@ -19,6 +19,7 @@
 #include <set>
 #include <chrono>
 #include <thread>
+#include <stdlib.h>
 #include <future>
 #include "numbers.h"
 
@@ -452,7 +453,16 @@ cout << endl;
 }
 
 void stozekObj(){    
-cout << endl;
+    float h;
+    float promien; //r
+    float v;
+cout << "podaj wysokosc stozka" << endl;
+cin >> h;
+cout << "podaj promien podstawy stozka (r)" << endl;
+cin >> promien;
+v = promien * promien * h;
+v /= 3;
+cout << "objetosc wynosi " << v << " pi" << endl;
 }
 
 void stozekPrzekatna(){    
@@ -509,9 +519,9 @@ int main(){
     cout << "[29] kula przekatna" << endl;
     cout << "[30] kula calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
-    cout << "[31] stozek objetosc" << endl;
-    cout << "[32] stozek przekatna" << endl;
-    cout << "[33] stozek calkowtia powierzchnia" << endl;
+    cout << "[31] stozek pole calkowite" << endl;
+    cout << "[32] stozek objetosc" << endl;
+    cout << "[33] stozek przekatna" << endl;
     cout << "-------------------------------------" << endl;
 
    cout << "co potrzebne?" << endl;
