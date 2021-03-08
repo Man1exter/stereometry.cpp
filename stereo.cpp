@@ -377,7 +377,19 @@ cout << "pole calkowite wynosi: " << sqrt(pc) << " pierwiastek 3 do potegi 2"<< 
 } 
 
 void czworoscianObj(){    
-cout << endl;
+    float a;
+    float h;
+    float pp;
+    float v;
+cout << "podaj dlugosc krawedzi czworoscianu" << endl;
+cin >> a;
+h = a / 2;
+cout << "wysokosc wynosi: " << h << " pierwiastek 3" << endl;
+pp = 6 * h / 2;
+cout << "pp wynosi : " << pp << " pierwiastek 3" << endl;
+v = pp * h;
+v /= 3;
+cout << "objetosc wynosi: " << v << " pierwiastek 3" << endl;
 }
 
 void czworoscianPrzekatna(){    
