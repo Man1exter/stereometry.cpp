@@ -362,12 +362,18 @@ cout << "Długość krawędzi podstawy graniastosłupa prawidłowego sześcioką
  cout << "d = 2a" << endl;
  cout << "k = a√3" << endl;
  cout << "D = √d2 + h2 = √4a2 + a2 = √5a2 = a√5" << endl;
- cout << "D = pierwiastekd do 2 + h2 = pierw4 a do 2 + a2 itd w przyklaodwych"
+ cout << "D = pierwiastekd do 2 + h2 = pierw4 a do 2 + a2 itd w przyklaodwych" << endl;
  cout << "K = √k2 + h2 = √3a2 + a2 = √4a2 = 2a" << endl;
 }
 
-void czworoscianPoleCalkowite(){    
-cout << endl;
+void czworoscianPoleCalkowite(){ 
+    float pc;   
+    float krawedz; // a
+cout << "podaj dlugosc krawedzi podstawy (a)" << endl;
+cin >> krawedz;
+pc = 4 * krawedz * krawedz / 4;
+pc = pc * pc;
+cout << "pole calkowite wynosi: " << sqrt(pc) << " pierwiastek 3 do potegi 2"<< endl;
 } 
 
 void czworoscianObj(){    
