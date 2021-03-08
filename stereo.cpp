@@ -444,8 +444,17 @@ void kulaObj(){
 cout << endl;
 }
 
-void kulaPrzekatna(){    
-cout << endl;
+void kulaPromien(){    
+float v;
+float r;
+cout << "podaj objetosc kuli" << endl;
+cin >> v;
+v = v * 3;
+cout << "po pomnozeniu: " << v << endl;
+v = v / 4;
+cout << "po podzieleniu: " << v << endl;
+cout << "r do potegi 3 rowna sie " << v << endl;
+cout << "dalsze kroki z r * r * r aby rownalo sie v" << endl;
 }
 
 void stozekPoleCalkowite(){    
@@ -530,7 +539,7 @@ int main(){
     cout << "[27] walec calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
     cout << "[28] kula objetosc" << endl;
-    cout << "[29] kula przekatna" << endl;
+    cout << "[29] kula promien" << endl;
     cout << "[30] kula calkowtia powierzchnia" << endl;
     cout << "-------------------------------------" << endl;
     cout << "[31] stozek pole calkowite" << endl;
@@ -616,7 +625,7 @@ int main(){
        } else if(wybor2 == 29){
             kulaObj();
        } else if(wybor2 == 30){
-            kulaPrzekatna();
+            kulaPromien();
        } else if(wybor2 == 31){
             stozekPoleCalkowite();
        } else if(wybor2 == 32){
