@@ -449,7 +449,18 @@ cout << endl;
 }
 
 void stozekPoleCalkowite(){    
-cout << endl;
+    float h;
+    float r;
+    float l;
+    float pc;
+cout << "podaj wysokosc stozka" << endl;
+cin >> h;
+cout << "podaj promien stozka" << endl;
+cin >> r;
+l = h * h + r * r;
+cout << "l wynosi : " << sqrt(l) << " moze byc rowniez ze znakiem przeciwnym!!"<< endl;
+pc = r * r + r * l;
+cout << "pole calkowte wynosi ====> " << pc << " pi" << endl;
 }
 
 void stozekObj(){    
@@ -466,6 +477,9 @@ cout << "objetosc wynosi " << v << " pi" << endl;
 }
 
 void stozekPrzekatna(){    
+cout << endl;
+cout << "brak danych opartych o jakiekolwiek zadania z przekatna w graniastoslupie trojkatnym" << endl;
+cout << "wybierz inna pozycje" << endl;
 cout << endl;
 }
 
