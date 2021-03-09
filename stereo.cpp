@@ -440,8 +440,20 @@ void kulaPoleCalkowite(){
 cout << endl;
 }
 
-void kulaObj(){    
-cout << endl;
+void kulaObj(){  
+    float r; 
+    float v; 
+    float obj;
+cout << "podaj promien kuli" << endl;
+cin >> r;
+v = r * r * r;
+cout << "r do potegi 3 rowna sie ===> " << v << endl;
+if(v / 3 == 0){
+    obj = v / 3;
+    cout << "objetosc wynosi: " << obj << endl;
+} else {
+    cout << "objetosc wynosi: " << obj << endl;
+}
 }
 
 void kulaPromien(){    
@@ -454,7 +466,8 @@ cout << "po pomnozeniu: " << v << endl;
 v = v / 4;
 cout << "po podzieleniu: " << v << endl;
 cout << "r do potegi 3 rowna sie " << v << endl;
-cout << "dalsze kroki z r * r * r aby rownalo sie v" << endl;
+cout << "dalsze kroki z [r * r * r] aby rownalo sie v" << endl;
+cout << "r wynosi wynik (bez potegowania do 3)" << endl;
 }
 
 void stozekPoleCalkowite(){    
