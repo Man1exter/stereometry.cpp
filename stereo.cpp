@@ -436,8 +436,13 @@ void walecPrzekatna(){
 cout << endl;
 }
 
-void kulaPoleCalkowite(){    
-cout << endl;
+void kulaPoleCalkowite(){   
+    float r;
+    float pc; 
+cout << "podaj promien kuli" << endl;
+cin >> r;
+pc = 4 * (r * r);
+cout << "pole calkowite wynosi: " << pc << " pi" << endl;
 }
 
 void kulaObj(){  
