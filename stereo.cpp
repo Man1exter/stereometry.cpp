@@ -448,12 +448,8 @@ cout << "podaj promien kuli" << endl;
 cin >> r;
 v = r * r * r;
 cout << "r do potegi 3 rowna sie ===> " << v << endl;
-if(v / 3 == 0){
-    obj = v / 3;
-    cout << "objetosc wynosi: " << obj << endl;
-} else {
-    cout << "objetosc wynosi: " << obj << endl;
-}
+obj = v / 3;
+cout << "objetosc wynosi: " << obj << " pi" << endl;
 }
 
 void kulaPromien(){    
