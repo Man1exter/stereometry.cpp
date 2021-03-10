@@ -433,7 +433,17 @@ cout << endl;
 }
 
 void walecPrzekatna(){    
-cout << endl;
+    float r;
+    float h;
+    float wynik;
+cout << "podaj promien walca" << endl;
+cin >> r;
+cout << "podaj wysokosc" << endl;
+cin >> h;
+cout << "r + r = podstawa czyli b prostokata" << endl;
+cout << "natomiast h jest to a bok prostokata" << endl;
+wynik = (r * r) + (h * h);
+cout << "wynik wynosi: " << sqrt(wynik) << endl;
 }
 
 void kulaPoleCalkowite(){   
