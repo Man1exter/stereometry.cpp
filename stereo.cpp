@@ -432,7 +432,8 @@ cout << "podaj promien" << endl;
 cin >> r;
 cout << "podaj wysokosc" << endl;
 cin >> h;
-pc = 
+pc = (r * r) + 4 * h;
+cout << "pole calkowite wynosi: " << pc << endl;
 }
 
 void walecObj(){    
