@@ -425,11 +425,26 @@ cout << endl;
 }
 
 void walecPoleCalkowite(){    
-cout << endl;
+    float r;
+    float h;
+    float pc;
+cout << "podaj promien" << endl;
+cin >> r;
+cout << "podaj wysokosc" << endl;
+cin >> h;
+pc = 
 }
 
 void walecObj(){    
-cout << endl;
+    float r;
+    float h;
+    float obj;
+cout << "podaj promien" << endl;
+cin >> r;
+cout << "podaj wysokosc" << endl;
+cin >> h;
+obj = (r * r) * h;
+cout << "objetosc wynosi: " << obj << endl;
 }
 
 void walecPrzekatna(){    
