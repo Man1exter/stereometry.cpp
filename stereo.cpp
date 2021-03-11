@@ -420,7 +420,16 @@ cout << endl;
 }
 
 void ostrczworokatnyPoleCalkowite(){    
-cout<< endl;
+float a;
+float h;
+float pp;
+float pc;
+float pb;
+pp = a * a;
+cout << "pole podstawy wynosi: " << pp << endl;
+pb = (4 / 2) * a * h
+cout << "pole boczne wynosi: " << pb << endl;
+// pc;
 } 
 
 void ostrczworokatnyObj(){    
