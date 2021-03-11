@@ -405,7 +405,14 @@ cout << endl;
 } 
 
 void ostrtrojkatnyObj(){    
-cout << endl;
+float a;
+float h;
+float pp;
+float obj;
+pp = a * a;
+cout << "pole podstawy wynosi: " << pp << endl;
+obj = pp * (h / 3);
+cout << "objetosc wynosi: " << obj << endl;
 }
 
 void ostrtrojkatnyPrzekatna(){    
@@ -413,7 +420,7 @@ cout << endl;
 }
 
 void ostrczworokatnyPoleCalkowite(){    
-cout << endl;
+cout<< endl;
 } 
 
 void ostrczworokatnyObj(){    
