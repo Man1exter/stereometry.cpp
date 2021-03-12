@@ -429,7 +429,8 @@ pp = a * a;
 cout << "pole podstawy wynosi: " << pp << endl;
 pb = (4 / 2) * a * h
 cout << "pole boczne wynosi: " << pb << endl;
-// pc;
+pc = pp + pb;
+cout << "pole calkowite wynosi: " << pc << endl;
 } 
 
 void ostrczworokatnyObj(){    
