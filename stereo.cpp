@@ -466,7 +466,21 @@ cout << "pole calkowite wynosi: " << pc << endl;
 } 
 
 void ostrczworokatnyObj(){    
-cout << endl;
+    float sh;
+    float ssh;
+    float obj;
+    float h;
+    float kp;
+cout << "podaj wysokosc sciany bocznej" << endl;
+cin >> sh; // sciana boczna
+cout << "podaj dlugosc krawedzi podstwy" << endl;
+cin >> kp;
+ssh = 2/sh;
+cout << "polowa dlugosci sciany bocznej wynosi: " << ssh << endl;
+h = (ssh * ssh) - (sh * sh);
+cout << "wysokosc ostrolsupa wynosi: " << sqrt(h) << endl;
+obj = 2 / (ssh * h);
+cout << "objetosc wynosi: " << obj << " cm3" << endl;
 }
 
 void ostrczworokatnyPrzekatna(){    
