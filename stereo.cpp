@@ -412,7 +412,25 @@ cout << endl;
 }
 
 void ostrtrojkatnyPoleCalkowite(){    
-cout << endl;
+    float bok;
+    float pc;
+    float c;
+    float h;
+    float p1;
+    float p2;
+    float p3;
+cout << "podaj bok podstawy w granistaoslupie" << endl;
+cin >> bok;
+cout << "podaj wysokosc" << endl;
+cin >> h;
+p1 = bok * h / 2;
+cout << "p1 wynosi ===============> " << p1 << endl;
+p2 = (bok * bok) / 4;
+cout << "p2 wynosi ===============> " << p2 << " pierwiastek 3" << endl;
+c = bok * h;
+cout << "wartosc ( c ) wynosi ======> " << sqrt(c) << endl;
+pc = 2 * p1 + p2 + c;
+cout << "pole calkowite wynosi: " << pc << "pierwiastek z wlasnorecznego wykonania dzielenia na sqrt" << endl;
 } 
 
 void ostrtrojkatnyObj(){    
