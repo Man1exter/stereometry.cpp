@@ -287,7 +287,18 @@ cout << "pole calkowite wynosi: " << pc << " pierwiastek 3" << endl;
 }
 
 void granczworokatnyObj(){
-
+    float h;
+    float bok;
+    float obj;
+    float poleaa;
+cout << "podaj wysokosc" << endl;
+cin >> h;
+cout << "podaj bok podstawy" << endl;
+cin >> bok;
+poleaa = bok * bok;
+cout << "cale pole podstawy wynosi: " << poleaa << " (zazwyczaj w kwadratowych po jednostce)"<< endl;
+obj = poleaa * h;
+cout << "objetosc wynosi: " << obj << " (zazwyczaj w kwadratowych po jednostce)"<< endl;
 }
 
 void granczworokatnyPrzekatna(){
@@ -430,7 +441,7 @@ float pc;
 float pb;
 pp = a * a;
 cout << "pole podstawy wynosi: " << pp << endl;
-pb = (4 / 2) * a * h
+pb = (4 / 2) * a * h;
 cout << "pole boczne wynosi: " << pb << endl;
 pc = pp + pb;
 cout << "pole calkowite wynosi: " << pc << endl;
