@@ -598,7 +598,6 @@ cout << "wybierz inna pozycje" << endl;
 cout << endl;
 }
 
-
 int main(){
     string bryla;
     int wybor;
@@ -666,12 +665,10 @@ int main(){
                return 0;
            }
        }
-
    if(wybor == 1){
 
        cout << "Ktore zadanie:" << endl;
        cin >> wybor2;
-
        if(wybor2 == 1){
        szescianObj();
        } else if(wybor2 == 2){
@@ -739,15 +736,9 @@ int main(){
        } else if(wybor2 == 33){
             stozekPrzekatna();
        }
-
-
-
-
    } else {
-
     cout << "Jaka bryla potrzebna?" << endl;
     cin >> bryla;
-
     if(bryla == "prostopadloscian"){
     prostopadloscian();
 } else if(bryla == "szescian"){
@@ -772,7 +763,5 @@ int main(){
     stozek();
 }
 }
-
 return 0;
-
 }
